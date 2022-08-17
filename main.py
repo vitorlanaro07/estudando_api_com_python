@@ -1,4 +1,3 @@
-
 from fastapi import FastAPI
 from extrair_dados_planilha import lista_de_carros
 
