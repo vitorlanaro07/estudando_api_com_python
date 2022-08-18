@@ -1,6 +1,6 @@
 import pandas as pd
 
-arquivo = 'cars_raw.csv'
+arquivo = '../cars_raw.csv'
 lista_de_carros = []
 arquivo_carregado = pd.read_csv(arquivo, usecols=[0,1,2,4])
 
